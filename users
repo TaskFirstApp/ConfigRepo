@@ -1,0 +1,11 @@
+spring.application.name=users
+
+eureka.client.region=default
+eureka.client.registryFetchIntervalSeconds=5
+
+spring.data.mongodb.database=users
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+
+DealOfTheDay=13 percent off
+management.endpoints.web.exposure.include=*
